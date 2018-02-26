@@ -14,7 +14,7 @@ html {
 	from{opacity: 0}
 	to{opacity: 100}
 }
-img{
+#cg{
 	animation: images 2s;
 }
 #navigation {
