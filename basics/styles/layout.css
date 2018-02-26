@@ -2,27 +2,18 @@
 	padding:0;
 	margin:0;
 }
-body {
+html {
 	margin:1em 10%;
-	background-image:url(../images/background.jpg);
+	background-image:url(../image/background.jpg);
 	background-attachment:fixed;
-	background-position:top left;
+	background-size:100%;
 	background-repeat:repeat-x;
-	max-width;80em;
-}
-#header {
-	background-image:url(../images/apple.jpg);
-	background-position:bottom right;
-	background-repeat:no-repeat;
-	border-width;0.1em;
-	border-style:solid;
-	border-bottom-width:0;
+	max-width:80em;
 }
 #navigation {
-	background-image:url(../images/);
 	background-position:bottom left;
 	background-repeat:repeat-x;
-	border-width;0.1em;
+	border-width:0.1em;
 	border-style:solid;
 	border-bottom-width:0;
 	border-top-width:0;
@@ -44,10 +35,9 @@ body {
 	border-right:0.1em solid;
 }
 #content {
-	border-width;0.1em;
+	border-width:0.1em;
 	border-style:solid;
 	border-top-width:0;
 	padding:2em 10%;
 	line-height:1.8em;
 }
-
