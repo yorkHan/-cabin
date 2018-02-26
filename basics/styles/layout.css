@@ -10,6 +10,13 @@ html {
 	background-repeat:repeat-x;
 	max-width:80em;
 }
+@keyframes images {
+	from{opacity: 0}
+	to{opacity: 100}
+}
+img{
+	animation: images 2s;
+}
 #navigation {
 	background-position:bottom left;
 	background-repeat:repeat-x;
@@ -40,11 +47,4 @@ html {
 	border-top-width:0;
 	padding:2em 10%;
 	line-height:1.8em;
-}
-@keyframes images {
-	from{opacity: 0}
-	to{opacity: 100}
-}
-img{
-	animation: images 2s;
 }
