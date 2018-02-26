@@ -41,3 +41,10 @@ html {
 	padding:2em 10%;
 	line-height:1.8em;
 }
+@keyframes images {
+	from{opacity: 0}
+	to{opacity: 100}
+}
+img{
+	animation: images 2s;
+}
