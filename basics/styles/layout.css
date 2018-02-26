@@ -10,12 +10,12 @@ html {
 	background-repeat:repeat-x;
 	max-width:80em;
 }
-@keyframes images {
+@keyframes header {
 	from{opacity: 0}
 	to{opacity: 100}
 }
-#cg{
-	animation: images 2s;
+#cg {
+	animation: header 2s;
 }
 #navigation {
 	background-position:bottom left;
