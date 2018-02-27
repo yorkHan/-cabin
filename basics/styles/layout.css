@@ -13,7 +13,7 @@ html {
 	from{opacity: 0}
 	to{opacity: 100}
 }
-#cg {
+img {
 	animation: header 2s;
 }
 #navigation {
@@ -46,4 +46,17 @@ html {
 	border-top-width:0;
 	padding:2em 10%;
 	line-height:1.8em;
+}
+#logo{
+	width:10%;
+	vertical-align: middle;
+	float: left;
+	top: 50%;
+}
+#apple {
+	float:right;
+	width:50%;
+}
+#div1 {
+	position: relative;
 }
